@@ -7,7 +7,9 @@ authors = [
     { name = "acdc234-git", email = "whdcks1987@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+]
 
 [project.scripts]
 ax-til = "ax_til:main"
